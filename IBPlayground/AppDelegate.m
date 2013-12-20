@@ -7,12 +7,20 @@
 //
 
 #import "AppDelegate.h"
+#import "viewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+   // NSLog(@"view did loadEEEEE");
+  //  ViewController *viewController = [[ViewController alloc] init];
+    
+   
+   // [self.window setRootViewController:viewController];
+   // [self.window makeKeyAndVisible];
+
     return YES;
 }
 							

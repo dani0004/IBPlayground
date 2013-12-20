@@ -10,4 +10,10 @@
 
 @interface ViewController : UIViewController
 
+ @property (nonatomic, weak) IBOutlet  UILabel *label1, *label2, *label3, *label4;
+//@property (nonatomic, weak) IBOutlet  UILabel *label1;
+
+-(IBAction) buttonTapped: (id) sender;
+
+
 @end
